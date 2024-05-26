@@ -10,7 +10,7 @@ This project is a backend developed with NestJS, designed for a store called Tes
 ### Docker Up 
 ![Alt text](doc/home.PNG) 
 ### Image PostgreSQL Up in Port 5433 
-![Alt text](doc/home.PNG) 
+![Alt text](doc/postgresql.PNG) 
 
 ## Requirements
 
