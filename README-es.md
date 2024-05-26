@@ -2,9 +2,9 @@
 - [Español (Spanish)](README-es.md)
 - [English](README.md)
 
-## Backend in Nets with Docker
+## Backend en Nets con Docker
 
-This project is a backend developed with NestJS, designed for a store called Teslo Shop. The backend provides an API to manage products, users, and other related resources. PostgreSQL is used as the database. The project is encapsulated in a Docker container to facilitate deployment and management.
+Este proyecto es un backend desarrollado con NestJS y diseñado para una tienda llamada Teslo Shop. El backend proporciona una API para gestionar productos, usuarios y otros recursos relacionados. Se utiliza PostgreSQL como base de datos. El proyecto está encapsulado en un contenedor Docker para facilitar su despliegue y gestión.
 
 ## RESULTS
 ### Docker Up 
@@ -12,16 +12,16 @@ This project is a backend developed with NestJS, designed for a store called Tes
 ### Image PostgreSQL Up in Port 5433 
 ![Alt text](doc/home.PNG) 
 
-## Requirements
+## Requisitos
 
 - Docker
 - Docker Compose
 
-## Project Setup
+## Configuración del Proyecto
 
-### Environment Variables
+### Variables de Entorno
 
-The project requires several environment variables for configuration. You can use the `env.template` file as a reference. Here is an example of the necessary variables:
+El proyecto requiere varias variables de entorno para su configuración. Puedes usar el archivo `env.template` como referencia. Aquí tienes un ejemplo de las variables necesarias:
 
 ```
 APP_VERSION=0.0.1
@@ -36,7 +36,7 @@ HOST_API=http://localhost:3000/api
 JWT_SECRET=Est3EsMISE3Dsecreto32s
 ```
 
-### Required Files
+### Archivos Necesarios
 
 1. **docker-compose.yml**:
     ```yaml
@@ -94,49 +94,49 @@ JWT_SECRET=Est3EsMISE3Dsecreto32s
     JWT_SECRET=Est3EsMISE3Dsecreto32s
     ```
 
-## Instructions for Use
+## Instrucciones de Uso
 
-### 1. Clone the Repository
+### 1. Clonar el Repositorio
 
-Clone the repository to your local machine.
+Clona el repositorio en tu máquina local.
 
 ```sh
 git clone https://github.com/Anyel-ec/Backend-NodeJS-Docker-Postgress-TO-Flutter
 cd Backend-NodeJS-Docker-Postgress-TO-Flutter
 ```
 
-### 2. Configure Environment Variables
+### 2. Configurar Variables de Entorno
 
-Create a `.env` file in the root of the project and copy the contents of `env.template` into it. Adjust the values as needed.
+Crea un archivo `.env` en la raíz del proyecto y copia el contenido de `env.template` en él. Ajusta los valores según tus necesidades.
 
-### 3. Start the Containers
+### 3. Levantar los Contenedores
 
-Run the following command to start the containers:
+Ejecuta el siguiente comando para levantar los contenedores:
 
 ```sh
 docker-compose up -d
 ```
 
-### 4. Initialize the Database
+### 4. Inicializar la Base de Datos
 
-Populate the database with temporary data by accessing this link in your browser:
+Llena la base de datos con datos temporales accediendo a este enlace en tu navegador:
 
 ```
 http://localhost:3000/api/seed
 ```
 
-### 5. API Documentation
+### 5. Documentación de la API
 
-Find the documentation of the available endpoints here:
+Encuentra la documentación de los puntos finales disponibles aquí:
 
 ```
 http://localhost:3000/api
 ```
 
-## Additional Information
+## Información Adicional
 
-This project uses a Docker image developed by Fernando Herrera (I love yours courses). You can find more information about his images on [Docker Hub](https://hub.docker.com/u/klerith).
+Este proyecto utiliza una imagen de Docker desarrollada por Fernando Herrera <3 (I love yours courses). Puedes encontrar más información sobre sus imágenes en [Docker Hub](https://hub.docker.com/u/klerith).
 
 ---
 
-Thank you for using this project! If you have any questions or issues, feel free to open an issue in the repository.
+¡Gracias por utilizar este proyecto! Si tienes alguna pregunta o problema, no dudes en abrir un issue en el repositorio.
